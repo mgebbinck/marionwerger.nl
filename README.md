@@ -26,8 +26,10 @@ Statische website van **Marion Werger Coaching & Yoga**, klaar om te hosten op G
 | `algemene-voorwaarden.html` | Algemene voorwaarden |
 | `privacyverklaring.html` | Privacyverklaring |
 
-Opmaak staat in `assets/css/style.css`, alle foto's in `assets/img/`.
-De site is statisch: geen build-stap, geen framework, geen database.
+Opmaak staat in `assets/css/`, alle foto's in `assets/img/`. Thema-scripts, fonts,
+faviconbestanden en reisdocumenten staan lokaal in `assets/js/`, `assets/fonts/`,
+`assets/img/` en `assets/docs/`.
+De site is statisch: geen build-stap, geen framework, geen database of WordPress-assets.
 
 ## Publiceren op GitHub Pages
 
@@ -41,10 +43,8 @@ die live website niet.
 
 ## Nog aan te vullen
 
-- `privacyverklaring.html` — de originele tekst kon niet worden opgehaald en moet nog
-  worden ingevuld.
-- Het contactformulier opent het e-mailprogramma van de bezoeker. Wil je een echt
-  verzendend formulier, koppel dan een dienst als Formspree of Netlify Forms
+- Het contact- en proeflesformulier opent het e-mailprogramma van de bezoeker. Wil je
+  een echt verzendend formulier, koppel dan een dienst als Formspree of Netlify Forms
   (GitHub Pages kan zelf geen formulieren verwerken).
 - Actuele lesroosters, data en prijzen: controleer voor livegang of alles nog klopt.
 
