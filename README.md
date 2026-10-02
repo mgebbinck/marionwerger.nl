@@ -31,25 +31,13 @@ De site is statisch: geen build-stap, geen framework, geen database.
 
 ## Publiceren op GitHub Pages
 
-1. Maak een nieuwe (lege) repository aan op GitHub, bijvoorbeeld `marionwerger-nl`.
-2. Zet de inhoud van deze map in de repository:
+GitHub Pages publiceert deze statische site automatisch vanaf de `main`-branch
+van de repository. Na een update op `main` wordt de site beschikbaar op
+<https://mgebbinck.github.io/marionwerger.nl/>.
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Eerste versie website marionwerger.nl"
-   git branch -M main
-   git remote add origin https://github.com/<gebruikersnaam>/marionwerger-nl.git
-   git push -u origin main
-   ```
-
-3. Ga in de repository naar **Settings → Pages** en kies bij *Source*:
-   `Deploy from a branch` → branch `main`, map `/ (root)`.
-4. Eigen domein: het bestand `CNAME` bevat al `www.marionwerger.nl`.
-   Zet bij je domeinprovider een CNAME-record voor `www` naar
-   `<gebruikersnaam>.github.io`. Vink daarna in GitHub Pages *Enforce HTTPS* aan.
-
-Het bestand `.nojekyll` zorgt dat GitHub de bestanden ongewijzigd publiceert.
+Het domein `marionwerger.nl` is niet aan deze GitHub Pages-site gekoppeld; het
+blijft de afzonderlijke WordPress-site. De GitHub Pages-publicatie verandert
+die live website niet.
 
 ## Nog aan te vullen
 
