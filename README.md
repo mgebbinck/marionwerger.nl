@@ -34,7 +34,7 @@ De site is statisch: geen build-stap, geen framework, geen database of WordPress
 ## Publiceren op GitHub Pages
 
 GitHub Pages publiceert deze statische site automatisch vanaf de `main`-branch
-van de repository. Na een update op `main` wordt de site beschikbaar op
+van de repository. De GitHub Pages-kopie is publiek toegankelijk op
 <https://mgebbinck.github.io/marionwerger.nl/>.
 
 Het domein `marionwerger.nl` is niet aan deze GitHub Pages-site gekoppeld; het
